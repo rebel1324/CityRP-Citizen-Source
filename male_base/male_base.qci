@@ -1,0 +1,52 @@
+$pushd "male_base"
+
+$bodygroup "torso"
+{
+	studio "male_base_torso_citizen_1.smd"
+	studio "male_base_torso_citizen_2.smd"
+	studio "male_base_torso_casual.smd"
+	studio "male_base_torso_casual2.smd"
+	studio "male_base_torso_casual3.smd"
+	studio "male_base_torso_summer_w.smd"
+	studio "male_base_torso_kara.smd"
+	studio "male_base_legs_none.smd"
+}
+$bodygroup "legs"
+{
+	studio "male_base_legs_citizen_1.smd"
+	studio "male_base_legs_citizen_2.smd"
+	studio "male_base_legs_casual.smd"
+	studio "male_base_legs_summer_w.smd"
+	studio "male_base_legs_none.smd"
+}
+$bodygroup "shoes"
+{
+	studio "male_base_shoes_citizen.smd"
+	studio "male_base_shoes_casual.smd"
+	studio "male_base_shoes_casual2.smd"
+	studio "male_base_shoes_summer.smd"
+	studio "male_base_legs_none.smd"
+}
+
+
+$cdmaterials "models\btcitizen\"
+$cdmaterials "models\btcitizen\facemaps"
+
+$surfaceprop "flesh"
+
+$contents "solid"
+
+$eyeposition 0 0 70
+
+// Thes aren't really necessary and break certain landing animations, but I'm keeping them because people use the models for NPCs.
+//$includemodel "humans/male_shared.mdl"
+//$includemodel "humans/male_ss.mdl"
+//$includemodel "humans/male_gestures.mdl"
+//$includemodel "humans/male_postures.mdl"
+
+$include "male_base/male_base_ragdoll.qci"
+$include "male_base/male_base_commonbones.qci"
+$include "male_base/male_base_hitbox.qci"
+$include "male_base/male_base_standardikchains.qci"
+
+$popd
