@@ -1,7 +1,5 @@
 $modelname "btcitizen/female_09.mdl"
 
-$includemodel "f_anm.mdl"
-
 $pushd "female_base/heads"
 
 $cdmaterials "models\cityrp\bulma"

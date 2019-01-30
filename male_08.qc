@@ -1,7 +1,5 @@
 $modelname "player/rebel1324/male_08.mdl"
 
-$includemodel "m_anm.mdl"
-
 $pushd "male_base/heads"
 
 $model "male_08" "male_08_reference.smd" {

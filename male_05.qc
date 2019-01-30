@@ -1,7 +1,5 @@
 $modelname "btcitizen/male_05.mdl"
 
-$includemodel "m_anm.mdl"
-
 $pushd "male_base/heads"
 
 $model "male_05" "male_05_reference.smd" {

@@ -32,11 +32,8 @@ $contents "solid"
 
 $eyeposition 0 0 70
 
-// Thes aren't really necessary and break certain landing animations, but I'm keeping them because people use the models for NPCs.
-//$includemodel "humans/female_shared.mdl"
-//$includemodel "humans/female_ss.mdl"
-//$includemodel "humans/female_gestures.mdl"
-//$includemodel "humans/female_postures.mdl"
+$includemodel "f_anm.mdl"
+$includemodel "player/dewobedil/mmd/custom_animation_female.mdl"
 
 $include "female_base/female_base_ragdoll.qci"
 $include "female_base/female_base_commonbones.qci"
