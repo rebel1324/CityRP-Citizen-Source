@@ -1,4 +1,4 @@
-$modelname "player/rebel1324/male_08.mdl"
+$modelname "btcitizen/male_08.mdl"
 
 $pushd "male_base/heads"
 
@@ -15,17 +15,6 @@ $model "male_08" "male_08_reference.smd" {
 $popd
 
 $include "male_base/male_base.qci"
-
-$pushd "male_base/hands"
-
-$bodygroup "hands"
-{
-	studio "male_base_hands.smd"
-	studio "male_base_hands_glove_fingerless.smd"
-	studio "male_base_hands_glove.smd"
-}
-
-$popd
 
 $attachment "eyes" "ValveBiped.Bip01_Head1" 3.39 -3.75 0.04 rotate 0 -80.1 -90
 $attachment "mouth" "ValveBiped.Bip01_Head1" 0.7 -5.2 0 rotate 0 -80 -90

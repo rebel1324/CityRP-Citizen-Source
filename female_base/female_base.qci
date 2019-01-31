@@ -41,3 +41,46 @@ $include "female_base/female_base_hitbox.qci"
 $include "female_base/female_base_standardikchains.qci"
 
 $popd
+
+$pushd "female_base/hands"
+
+$bodygroup "hands"
+{
+	studio "female_base_hands.smd"
+	studio "female_base_hands_glove_fingerless.smd"
+	studio "female_base_hands_glove.smd"
+}
+
+	$lod 50
+	{
+		replacemodel "female_base_hands.smd" "female_base_hands_low0.smd"
+		replacemodel "female_base_hands_glove.smd" "female_base_hands_glove_low0.smd"
+		replacemodel "female_base_hands_glove_fingerless.smd" "female_base_hands_glove_fingerless_low2.smd"
+		bonetreecollapse "ValveBiped.Bip01_R_Hand"
+		bonetreecollapse "ValveBiped.Bip01_L_Hand"
+	}
+	$lod 35
+	{
+		replacemodel "female_base_hands.smd" "female_base_hands_low1.smd"
+		replacemodel "female_base_hands_glove.smd" "female_base_hands_glove_low1.smd"
+		replacemodel "female_base_hands_glove_fingerless.smd" "female_base_hands_glove_fingerless_low1.smd"
+		bonetreecollapse "ValveBiped.Bip01_R_Hand"
+		bonetreecollapse "ValveBiped.Bip01_L_Hand"
+	}
+	$lod 20
+	{
+		replacemodel "female_base_hands.smd" "female_base_hands_low2.smd"
+		replacemodel "female_base_hands_glove.smd" "female_base_hands_glove_low2.smd"
+		replacemodel "female_base_hands_glove_fingerless.smd" "female_base_hands_glove_fingerless_low0.smd"
+		bonetreecollapse "ValveBiped.Bip01_R_Hand"
+		bonetreecollapse "ValveBiped.Bip01_L_Hand"
+	}
+	$lod 10
+	{
+		replacemodel "female_base_hands.smd" "female_base_hands_low2.smd"
+		replacemodel "female_base_hands_glove.smd" "female_base_hands_glove_low2.smd"
+		replacemodel "female_base_hands_glove_fingerless.smd" "female_base_hands_glove_fingerless_low0.smd"
+		bonetreecollapse "ValveBiped.Bip01_R_Hand"
+		bonetreecollapse "ValveBiped.Bip01_L_Hand"
+	}
+$popd

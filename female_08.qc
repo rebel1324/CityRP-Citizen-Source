@@ -180,17 +180,6 @@ $popd
 
 $include "female_base/female_base.qci"
 
-$pushd "female_base/hands"
-
-$bodygroup "hands"
-{
-	studio "female_base_hands.smd"
-	studio "female_base_hands_glove_fingerless.smd"
-	studio "female_base_hands_glove.smd"
-}
-
-$popd
-
 $attachment "eyes" "ValveBiped.Bip01_Head1" 2.66 -3.29 0.04 rotate 0 -80.1 -90
 $attachment "mouth" "ValveBiped.Bip01_Head1" 0.1 -5.7 0 rotate 0 -80 -90
 $attachment "chest" "ValveBiped.Bip01_Spine2" 4 4 0 rotate 0 95 90
