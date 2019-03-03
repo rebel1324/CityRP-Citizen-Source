@@ -35,6 +35,10 @@ $eyeposition 0 0 70
 $includemodel "f_anm.mdl"
 $includemodel "player/dewobedil/mmd/custom_animation_female.mdl"
 
+$includemodel "player/wiltos/anim_extension_l4d.mdl"
+$includemodel "player/wiltos/anim_extension_cancer.mdl"
+$includemodel "player/wiltos/anim_extension_ahl.mdl"
+
 $include "female_base/female_base_ragdoll.qci"
 $include "female_base/female_base_commonbones.qci"
 $include "female_base/female_base_hitbox.qci"

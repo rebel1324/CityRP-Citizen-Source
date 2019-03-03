@@ -124,3 +124,6 @@ $includemodel "player/dewobedil/mmd/custom_animation_male.mdl"
 $includemodel "humans/dance.mdl"
 $includemodel "humans/dance2.mdl"
 
+$includemodel "player/wiltos/anim_extension_l4d.mdl"
+$includemodel "player/wiltos/anim_extension_cancer.mdl"
+$includemodel "player/wiltos/anim_extension_ahl.mdl"
